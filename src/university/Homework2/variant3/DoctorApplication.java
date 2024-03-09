@@ -23,14 +23,14 @@ import java.util.Scanner;
 
 public class DoctorApplication {
     private static final Scanner SCANNER = new Scanner(System.in);
-    private static final ArrayList<Doctor> doctors = new ArrayList<>() {{
+    private static final ArrayList<Doctor> DOCTORS = new ArrayList<>() {{
         add(new Doctor("Антонов Антон Антонович", "Терапевт", 345, 15, false));
         add(new Doctor("Иванов Иван Иванович", "Хирург", 95, 20, false));
         add(new Doctor("Юрьев Юрий Аристархович", "Офтальмолог", 75, 10, false));
     }};
 
     private static void doctorsPrint() {
-        doctors.stream().sorted(Doctor::compareTo).forEach(System.out::println);
+        DOCTORS.stream().sorted(Doctor::compareTo).forEach(System.out::println);
     }
 
     public static void addDoctor() {
@@ -57,12 +57,12 @@ public class DoctorApplication {
         }
         System.out.println("Отметка о прохождении аттестации - ");
         boolean isCertification = SCANNER.nextBoolean();
-        doctors.add(new Doctor(name, professional, number, days, isCertification));
+        DOCTORS.add(new Doctor(name, professional, number, days, isCertification));
         doctorsPrint();
     }
 
     private static boolean isExistingNumber(int number) {
-        for (var doctor : doctors) {
+        for (var doctor : DOCTORS) {
             if (doctor.getNumber() == number) {
                 return false;
             }
@@ -71,7 +71,7 @@ public class DoctorApplication {
     }
 
     public static void changeCertification(int number) {
-        doctors.forEach(doctor -> {
+        DOCTORS.forEach(doctor -> {
             if (doctor.getNumber() == number) {
                 doctor.setCertification(true);
             }
