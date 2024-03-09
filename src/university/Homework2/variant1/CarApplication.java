@@ -46,9 +46,7 @@ public class CarApplication {
             String message = SCANNER.nextLine();
             try {
                 switch (message) {
-                    case "1" -> {
-                        addCar();
-                    }
+                    case "1" -> addCar();
                     case "2" -> {
                         System.out.println("Введите регистрационный номер автомобиля - ");
                         deleteCarByNumber(SCANNER.nextLine());
