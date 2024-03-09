@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="baf6d618-f6de-4fe1-975d-5a3369d4f568" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lessons.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaRush/JavaCore/ATM/BankAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaRush/JavaCore/ATM/Bankomat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaRush/JavaCore/ATM/NotEnoughMoneyException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaRush/JavaCore/AmigoOutputStream/AmigoOutputStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaRush/JavaCore/AmigoOutputStream/QuestionFileOutputStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaRush/JavaCore/ApplicationContext/ApplicationContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaRush/JavaCore/ApplicationContext/Bean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaRush/JavaCore/FileSeparation/FileSeparation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaRush/JavaCore/FrequentByte/FrequentByte.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaRush/JavaCore/Pharmacy/Drug.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaRush/JavaCore/Pharmacy/DrugsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaRush/JavaCore/Pharmacy/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaRush/JavaCore/Restaurant/Cook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaRush/JavaCore/Restaurant/Dishes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaRush/JavaCore/Restaurant/Manager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaRush/JavaCore/Restaurant/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaRush/JavaCore/Restaurant/Restaurant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaRush/JavaCore/Restaurant/Table.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaRush/JavaCore/Restaurant/Waiter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaRush/JavaCore/SequentialOutputOfFiles/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaRush/JavaCore/Transactionality/CorruptedDataException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaRush/JavaCore/Transactionality/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaRush/JavaCore/UnsupportedFileName/TxtInputStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaRush/JavaCore/UnsupportedFileName/UnsupportedFileNameException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaRush/JavaSyntaxZero/StackOnList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaRush/JavaSyntaxZero/StringLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaRush/JavaSyntaxZero/ToHexToBinary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaRush/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/game/CrossAndZero/CrossAndZero.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/game/CrossAndZero/Figure.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/game/CrossAndZero/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/game/RPG/AbstractEnemy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/game/RPG/AbstractHero.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/game/RPG/Archer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/game/RPG/Build.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/game/RPG/Clicker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/game/RPG/Devourer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/game/RPG/Enemy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/game/RPG/FirstAidKit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/game/RPG/Game.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/game/RPG/Guardian.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/game/RPG/Hero.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/game/RPG/Knight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/game/RPG/Mage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/university/Homework1/variant1/AutoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/university/Homework1/variant1/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/university/Homework1/variant2/Seller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/university/Homework1/variant2/SellerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/university/Homework1/variant2/Telephone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/university/Homework1/variant3/Dentist.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/university/Homework1/variant3/Doctor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/university/Homework1/variant3/DoctorApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/university/Homework1/variant3/Therapist.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/university/Homework1/variant4/Gardener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/university/Homework1/variant4/GardenerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/university/Homework1/variant4/Plant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/university/Homework1/variant5/Auditor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/university/Homework1/variant5/AuditorApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/university/Homework1/variant5/Store.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/university/Homework2/variant3/Doctor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/university/Homework2/variant3/DoctorApplication.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 5
+}]]></component>
+  <component name="ProjectId" id="2dRkt7V8QzzGNSlrR4vH9e1Htnn" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Application.DoctorApplication.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "onboarding.tips.debug.path": "C:/Users/OlegK/IdeaProjects/lessons/src/Main.java"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="DoctorApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="university.Homework2.variant3.DoctorApplication" />
+      <module name="lessons" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="university.Homework2.variant3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.DoctorApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-4f524021" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="baf6d618-f6de-4fe1-975d-5a3369d4f568" name="Changes" comment="" />
+      <created>1709978490485</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1709978490485</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>

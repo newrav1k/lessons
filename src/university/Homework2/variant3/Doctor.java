@@ -1,0 +1,67 @@
+package university.Homework2.variant3;
+
+public class Doctor implements Comparable<Doctor> {
+    private String name;
+    private String professional;
+    private int number;
+    private int days;
+    private boolean isCertification;
+
+    public Doctor(String name, String professional, int number, int days, boolean isCertification) {
+        this.name = name;
+        this.professional = professional;
+        this.number = number;
+        this.days = days;
+        this.isCertification = isCertification;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public String getProfessional() {
+        return professional;
+    }
+
+    public int getNumber() {
+        return number;
+    }
+
+    public int getDays() {
+        return days;
+    }
+
+    public boolean isCertification() {
+        return isCertification;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setProfessional(String professional) {
+        this.professional = professional;
+    }
+
+    public void setNumber(int number) {
+        this.number = number;
+    }
+
+    public void setDays(int days) {
+        this.days = days;
+    }
+
+    public void setCertification(boolean certification) {
+        isCertification = certification;
+    }
+
+    @Override
+    public int compareTo(Doctor o) {
+        return getName().compareTo(o.getName());
+    }
+
+    @Override
+    public String toString() {
+        return "%s, %s, %d, %d, %b".formatted(name, professional, number, days, isCertification);
+    }
+}
