@@ -22,7 +22,7 @@ public class CarApplication {
         showCars();
     }
 
-    public static void deleteCarOfNumber(String number) {
+    public static void deleteCarByNumber(String number) {
         CARS.removeIf(car -> car.getNumber().equals(number));
         showCars();
     }
@@ -51,7 +51,7 @@ public class CarApplication {
                     }
                     case "2" -> {
                         System.out.println("Введите регистрационный номер автомобиля - ");
-                        deleteCarOfNumber(SCANNER.nextLine());
+                        deleteCarByNumber(SCANNER.nextLine());
                     }
                     case "3" -> {
                         clearList();

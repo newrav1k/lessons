@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="baf6d618-f6de-4fe1-975d-5a3369d4f568" name="Changes" comment="lessons java">
-      <change afterPath="$PROJECT_DIR$/src/university/Homework2/variant1/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/university/Homework2/variant1/CarApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/university/Homework2/variant3/DoctorApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/university/Homework2/variant3/DoctorApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/university/Homework2/variant1/CarApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/university/Homework2/variant1/CarApplication.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +21,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
@@ -107,7 +107,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709979878876</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="lessons java">
+      <option name="closed" value="true" />
+      <created>1709992801457</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1709992801457</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
