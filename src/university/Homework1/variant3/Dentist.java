@@ -8,7 +8,7 @@ public class Dentist extends Doctor {
     }
 
     @Override
-    protected String writeRecipe(String recipe) {
+    public String writeRecipe(String recipe) {
         StringBuilder builder = new StringBuilder(recipe);
         return builder.reverse().toString();
     }

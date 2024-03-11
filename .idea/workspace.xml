@@ -5,7 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="baf6d618-f6de-4fe1-975d-5a3369d4f568" name="Changes" comment="lessons java">
-      <change beforePath="$PROJECT_DIR$/src/university/Homework2/variant1/CarApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/university/Homework2/variant1/CarApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/university/Homework2/variant4/Passport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/university/Homework2/variant4/PassportApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/university/Homework1/variant3/Dentist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/university/Homework1/variant3/Dentist.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/university/Homework1/variant3/DoctorApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/university/Homework1/variant3/DoctorApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/university/Homework1/variant3/Therapist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/university/Homework1/variant3/Therapist.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +26,20 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;newrav1k&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="37c61298-94b4-4a38-97dc-0cc7c588b016" />
+        <option name="url" value="https://github.com/newrav1k/lessons.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -39,8 +58,11 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Application.Animal.executor": "Run",
     "Application.CarApplication.executor": "Run",
     "Application.DoctorApplication.executor": "Run",
+    "Application.PassportApplication.executor": "Run",
+    "Application.university.Homework1.variant3.DoctorApplication.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
@@ -49,7 +71,14 @@
     "onboarding.tips.debug.path": "C:/Users/OlegK/IdeaProjects/lessons/src/Main.java"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.CarApplication">
+  <component name="RunManager" selected="Application.university.Homework1.variant3.DoctorApplication">
+    <configuration name="Animal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Animal" />
+      <module name="lessons" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CarApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="university.Homework2.variant1.CarApplication" />
       <module name="lessons" />
@@ -76,10 +105,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PassportApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="university.Homework2.variant4.PassportApplication" />
+      <module name="lessons" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="university.Homework2.variant4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="university.Homework1.variant3.DoctorApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="university.Homework1.variant3.DoctorApplication" />
+      <module name="lessons" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="university.Homework1.variant3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CarApplication" />
+        <item itemvalue="Application.university.Homework1.variant3.DoctorApplication" />
+        <item itemvalue="Application.Animal" />
+        <item itemvalue="Application.PassportApplication" />
         <item itemvalue="Application.DoctorApplication" />
+        <item itemvalue="Application.CarApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -115,7 +173,23 @@
       <option name="project" value="LOCAL" />
       <updated>1709992801457</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="lessons java">
+      <option name="closed" value="true" />
+      <created>1709993459071</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1709993459071</updated>
+    </task>
+    <task id="LOCAL-00004" summary="lessons java">
+      <option name="closed" value="true" />
+      <created>1709993487340</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1709993487340</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

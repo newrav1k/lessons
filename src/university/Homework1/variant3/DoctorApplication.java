@@ -11,25 +11,32 @@ public class DoctorApplication {
             Вариант: 13
             """;
 
-    public static void start(String message) {
-        String result;
-        switch (message.toLowerCase()) {
-            case "стоматолог" -> {
-                System.out.print("Введите рецепт: ");
-                result = SCANNER.nextLine();
-                System.out.println(Dentist.getInstance().writeRecipe(result));
-            } case "терапевт" -> {
-                System.out.print("Введите рецепт: ");
-                result = SCANNER.nextLine();
-                System.out.println(Therapist.getInstance().writeRecipe(result));
+    public static void start() {
+        System.out.printf("""
+                %s
+                Выберите врача, которого Вы посетили, или завершение программы:
+                1 - стоматолог
+                2 - терапевт
+                3 - завершить программу \n""", MESSAGE);
+        while (true) {
+            String message = SCANNER.nextLine();
+            switch (message) {
+                case "1" -> {
+                    System.out.print("Введите рецепт: ");
+                    System.out.println(Dentist.getInstance().writeRecipe(SCANNER.nextLine()));
+                } case "2" -> {
+                    System.out.print("Введите рецепт: ");
+                    System.out.println(Therapist.getInstance().writeRecipe(SCANNER.nextLine()));
+                } case "3" -> {
+                    System.out.println("Завершаю программу...");
+                    return;
+                }
             }
         }
     }
 
     public static void main(String[] args) {
-        System.out.printf("%s\nВведите врача, которого Вы посетили: ", MESSAGE);
-        String message = SCANNER.nextLine();
-        start(message);
+        start();
     }
 
 }

@@ -8,7 +8,7 @@ public class Therapist extends Doctor {
     }
 
     @Override
-    protected String writeRecipe(String recipe) {
+    public String writeRecipe(String recipe) {
         return "Спать надо больше!";
     }
 }
