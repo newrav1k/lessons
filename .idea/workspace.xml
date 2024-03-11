@@ -5,12 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="baf6d618-f6de-4fe1-975d-5a3369d4f568" name="Changes" comment="lessons java">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaRush/JavaCore/AdapterFileOutputStream/AdapterFileOutputStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaRush/JavaCore/AdapterFileOutputStream/AmigoStringWriter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaRush/JavaCore/TableAdapter/Table.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/university/Homework2/variant4/Passport.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/university/Homework2/variant4/PassportApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/university/Homework1/variant3/Dentist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/university/Homework1/variant3/Dentist.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/university/Homework1/variant3/DoctorApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/university/Homework1/variant3/DoctorApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/university/Homework1/variant3/Therapist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/university/Homework1/variant3/Therapist.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +22,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -62,32 +64,23 @@
     "Application.CarApplication.executor": "Run",
     "Application.DoctorApplication.executor": "Run",
     "Application.PassportApplication.executor": "Run",
+    "Application.Solution.executor": "Run",
+    "Application.Table (1).executor": "Run",
     "Application.university.Homework1.variant3.DoctorApplication.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "onboarding.tips.debug.path": "C:/Users/OlegK/IdeaProjects/lessons/src/Main.java"
+    "onboarding.tips.debug.path": "C:/Users/OlegK/IdeaProjects/lessons/src/Main.java",
+    "settings.editor.selected.configurable": "inlay.hints"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.university.Homework1.variant3.DoctorApplication">
+  <component name="RunManager" selected="Application.Table (1)">
     <configuration name="Animal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Animal" />
       <module name="lessons" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CarApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="university.Homework2.variant1.CarApplication" />
-      <module name="lessons" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="university.Homework2.variant1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -105,12 +98,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PassportApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="university.Homework2.variant4.PassportApplication" />
+    <configuration name="Table (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaRush.JavaCore.TableAdapter.Table" />
       <module name="lessons" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="university.Homework2.variant4.*" />
+          <option name="PATTERN" value="JavaRush.JavaCore.TableAdapter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Table" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaRush.JavaCore.TableAdapter.Table" />
+      <module name="lessons" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="JavaRush.JavaCore.TableAdapter.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,11 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Table (1)" />
+        <item itemvalue="Application.Table" />
+        <item itemvalue="Application.DoctorApplication" />
         <item itemvalue="Application.university.Homework1.variant3.DoctorApplication" />
         <item itemvalue="Application.Animal" />
-        <item itemvalue="Application.PassportApplication" />
-        <item itemvalue="Application.DoctorApplication" />
-        <item itemvalue="Application.CarApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -189,7 +195,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709993487340</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="lessons java">
+      <option name="closed" value="true" />
+      <created>1710116717024</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1710116717024</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
