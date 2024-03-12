@@ -3,6 +3,8 @@ package university.Homework1.variant3;
 import java.util.Scanner;
 
 public class DoctorApplication {
+    private static final Therapist THERAPIST = Therapist.getInstance();
+    private static final Dentist DENTIST = Dentist.getInstance();
     private static final Scanner SCANNER = new Scanner(System.in);
     private static final String MESSAGE =
             """
@@ -23,10 +25,10 @@ public class DoctorApplication {
             switch (message) {
                 case "1" -> {
                     System.out.print("Введите рецепт: ");
-                    System.out.println(Dentist.getInstance().writeRecipe(SCANNER.nextLine()));
+                    System.out.println(DENTIST.writeRecipe(SCANNER.nextLine()));
                 } case "2" -> {
                     System.out.print("Введите рецепт: ");
-                    System.out.println(Therapist.getInstance().writeRecipe(SCANNER.nextLine()));
+                    System.out.println(THERAPIST.writeRecipe(SCANNER.nextLine()));
                 } case "3" -> {
                     System.out.println("Завершаю программу...");
                     return;
