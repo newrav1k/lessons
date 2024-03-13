@@ -14,29 +14,21 @@ public class DoctorApplication {
                     """;
 
     public static void start() {
-        System.out.println(MESSAGE);
-        while (true) {
-            System.out.print("""
+        System.out.printf("""
+                    %s
                     Выберите врача, которого Вы посетили, или завершение программы:
                     1 - стоматолог
-                    2 - терапевт
-                    3 - завершить программу \n""");
-            String message = SCANNER.nextLine();
-            switch (message) {
-                case "1" -> {
-                    System.out.print("Введите рецепт: ");
-                    System.out.println(DENTIST.writeRecipe(SCANNER.nextLine()));
-                }
-                case "2" -> {
-                    System.out.print("Введите рецепт: ");
-                    System.out.println(THERAPIST.writeRecipe(SCANNER.nextLine()));
-                }
-                case "3" -> {
-                    System.out.println("Завершаю программу...");
-                    return;
-                }
+                    2 - терапевт \n""", MESSAGE);
+        String message = SCANNER.nextLine();
+        switch (message) {
+            case "1" -> {
+                System.out.print("Введите рецепт: ");
+                System.out.println(DENTIST.writeRecipe(SCANNER.nextLine()));
             }
-            System.out.println();
+            case "2" -> {
+                System.out.print("Введите рецепт: ");
+                System.out.println(THERAPIST.writeRecipe(SCANNER.nextLine()));
+            }
         }
     }
 
