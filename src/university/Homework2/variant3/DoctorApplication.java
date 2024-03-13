@@ -3,24 +3,6 @@ package university.Homework2.variant3;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-/*Вариант 3. Разработать программу для работы со списком ВРАЧЕЙ (Doctor).
-Для каждого ВРАЧА содержится следующая информация: ФИО (строка),
-специальность (строка), порядковый номер в списке сотрудников
-(положительное число), количество рабочих смен в месяц (положительное
-                                                                число), отметка о прохождении аттестации (логический тип).
-Заполнить список начальными значениями (минимум 3) необходимо в коде программы.
-Программа должна предоставлять пользователю две функции:
-         Добавление данных нового врача в список. При этом если пользователь
-пытается добавить врача с уже существующим порядковым номером,
-необходимо выводить соответствующее сообщение.
-         Изменение флага о прохождении аттестации для выбранного врача.
-В результате работы программы после каждой операции необходимо
-выводить на экран текущее содержимое списка врачей С СОРТИРОВКОЙ
-        ПО ФИО, например:
-Антонов Антон Антонович, терапевт, 345, 15, true
-Иванов Иван Иванович, хирург, 5, 20, true
-Юрьев Юрий Аристархович, офтальмолог, 65, 10, false*/
-
 public class DoctorApplication {
     private static final Scanner SCANNER = new Scanner(System.in);
     private static final ArrayList<Doctor> DOCTORS = new ArrayList<>() {{
@@ -30,7 +12,8 @@ public class DoctorApplication {
     }};
 
     private static void doctorsPrint() {
-        DOCTORS.stream().sorted(Doctor::compareTo).forEach(System.out::println);
+        DOCTORS.sort(Doctor::compareTo);
+        DOCTORS.forEach(System.out::println);
     }
 
     public static void addDoctor() {
@@ -59,7 +42,7 @@ public class DoctorApplication {
             }
         }
         System.out.println("Отметка о прохождении аттестации - ");
-        boolean isCertification = SCANNER.nextBoolean();
+        boolean isCertification = Boolean.parseBoolean(SCANNER.nextLine());
 
         DOCTORS.add(new Doctor(name, professional, number, days, isCertification));
         doctorsPrint();
@@ -84,20 +67,22 @@ public class DoctorApplication {
     }
 
     public static void start() {
-        System.out.println("""
-                Выберите что хотите сделать :
-                1 - добавить нового доктора
-                2 - уведомить о прохождении доктором аттестации
-                3 - закончить ввод \n""");
+        System.out.print("""
+                    Выберите, что хотите сделать :
+                    1 - добавить нового доктора
+                    2 - уведомить о прохождении доктором аттестации
+                    3 - вывести список докторов
+                    4 - закончить ввод \n""");
         while (true) {
             String message = SCANNER.nextLine();
             switch (message) {
                 case "1" -> addDoctor();
                 case "2" -> {
                     System.out.println("Укажите порядковый номер доктора");
-                    changeCertification(SCANNER.nextInt());
+                    changeCertification(Integer.parseInt(SCANNER.nextLine()));
                 }
-                case "3" -> {
+                case "3" -> doctorsPrint();
+                case "4" -> {
                     System.out.println("Завершаю программу...");
                     return;
                 }
