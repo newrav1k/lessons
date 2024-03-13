@@ -6,8 +6,7 @@ public class DoctorApplication {
     private static final Therapist THERAPIST = Therapist.getInstance();
     private static final Dentist DENTIST = Dentist.getInstance();
     private static final Scanner SCANNER = new Scanner(System.in);
-    private static final String MESSAGE =
-            """
+    private static final String MESSAGE = """
                     Выполнил работу: Крицкий Кирилл
                     Группа: РИБО-04-22
                     Вариант: 13
