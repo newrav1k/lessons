@@ -10,6 +10,12 @@ public class DoctorApplication {
         add(new Doctor("Иванов Иван Иванович", "Хирург", 95, 20, false));
         add(new Doctor("Юрьев Юрий Аристархович", "Офтальмолог", 75, 10, false));
     }};
+    private static final String MESSAGE = """
+            Выполнил работу: Крицкий Кирилл
+            Группа: РИБО-04-22
+            Вариант: 13
+            """;
+
 
     private static void doctorsPrint() {
         DOCTORS.sort(Doctor::compareTo);
@@ -67,12 +73,13 @@ public class DoctorApplication {
     }
 
     public static void start() {
-        System.out.print("""
-                    Выберите, что хотите сделать :
-                    1 - добавить нового доктора
-                    2 - уведомить о прохождении доктором аттестации
-                    3 - вывести список докторов
-                    4 - закончить ввод \n""");
+        System.out.printf("""
+                %s
+                Выберите, что хотите сделать :
+                1 - добавить нового доктора
+                2 - уведомить о прохождении доктором аттестации
+                3 - вывести список докторов
+                4 - закончить ввод \n""", MESSAGE);
         while (true) {
             String message = SCANNER.nextLine();
             switch (message) {

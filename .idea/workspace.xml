@@ -11,7 +11,6 @@
       <change afterPath="$PROJECT_DIR$/src/JavaRush/JavaCore/PersonScannerAdapter/Solution.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/university/Homework2/variant4/Passport.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/university/Homework2/variant4/PassportApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/JavaRush/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaRush/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/university/Homework2/variant3/DoctorApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/university/Homework2/variant3/DoctorApplication.java" afterDir="false" />
     </list>
@@ -253,7 +252,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710366612642</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="lessons java">
+      <option name="closed" value="true" />
+      <created>1710369050956</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1710369050956</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
