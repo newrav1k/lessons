@@ -10,6 +10,6 @@ public class Dentist extends Doctor {
     @Override
     public String writeRecipe(String recipe) {
         StringBuilder builder = new StringBuilder(recipe);
-        return builder.reverse().toString();
+        return String.format("Рецепт: %s", builder.reverse());
     }
 }
