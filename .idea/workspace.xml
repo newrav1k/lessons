@@ -11,8 +11,9 @@
       <change afterPath="$PROJECT_DIR$/src/JavaRush/JavaCore/PersonScannerAdapter/Solution.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/university/Homework2/variant4/Passport.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/university/Homework2/variant4/PassportApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/JavaRush/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaRush/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/university/Homework1/variant3/DoctorApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/university/Homework1/variant3/DoctorApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/university/Homework2/variant3/DoctorApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/university/Homework2/variant3/DoctorApplication.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +81,20 @@
     "settings.editor.selected.configurable": "inlay.hints"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.university.Homework1.variant3.DoctorApplication">
+  <component name="RunManager" selected="Application.DoctorApplication">
+    <configuration name="DoctorApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="university.Homework2.variant3.DoctorApplication" />
+      <module name="lessons" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="university.Homework2.variant3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Dog" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="testing.Dog" />
       <module name="lessons" />
@@ -120,19 +134,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Table (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaRush.JavaCore.TableAdapter.Table" />
-      <module name="lessons" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="JavaRush.JavaCore.TableAdapter.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="university.Homework1.variant3.DoctorApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="university.Homework1.variant3.DoctorApplication" />
       <module name="lessons" />
@@ -148,11 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DoctorApplication" />
         <item itemvalue="Application.university.Homework1.variant3.DoctorApplication" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Dog" />
         <item itemvalue="Application.Solution" />
-        <item itemvalue="Application.Table (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -236,7 +237,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710363975245</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="lessons java">
+      <option name="closed" value="true" />
+      <created>1710364575395</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1710364575395</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

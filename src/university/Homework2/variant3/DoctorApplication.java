@@ -38,31 +38,35 @@ public class DoctorApplication {
         String name = SCANNER.nextLine();
         System.out.println("Профессия - ");
         String professional = SCANNER.nextLine();
+        System.out.println("Порядковый номер - ");
         int number;
+        while (true) {
+            number = Integer.parseInt(SCANNER.nextLine());
+            if (!(number >= 0 && isExistingNumber(number))) {
+                System.out.println("Вы ввели отрицательное число или такой врач уже существует!");
+            } else {
+                break;
+            }
+        }
+        System.out.println("Количество рабочих смен - ");
         int days;
         while (true) {
-            System.out.println("Порядковый номер - ");
-            number = Integer.parseInt(SCANNER.nextLine());
-            if (number >= 0 && isExistingNumber(number)) {
-                System.out.println("Количество рабочих смен - ");
-                days = Integer.parseInt(SCANNER.nextLine());
-                if (days >= 0) {
-                    break;
-                } else {
-                    System.out.println("Вы ввели отрицательное число!\n");
-                }
+            days = Integer.parseInt(SCANNER.nextLine());
+            if (days > 0) {
+                break;
             } else {
-                System.out.println("Вы ввели отрицательное число или такой врач уже существует!");
+                System.out.println("Вы ввели отрицательное число!");
             }
         }
         System.out.println("Отметка о прохождении аттестации - ");
         boolean isCertification = SCANNER.nextBoolean();
+
         DOCTORS.add(new Doctor(name, professional, number, days, isCertification));
         doctorsPrint();
     }
 
     private static boolean isExistingNumber(int number) {
-        for (var doctor : DOCTORS) {
+        for (Doctor doctor : DOCTORS) {
             if (doctor.getNumber() == number) {
                 return false;
             }
@@ -84,23 +88,19 @@ public class DoctorApplication {
                 Выберите что хотите сделать :
                 1 - добавить нового доктора
                 2 - уведомить о прохождении доктором аттестации
-                3 - закончить ввод""");
+                3 - закончить ввод \n""");
         while (true) {
-            try {
-                String message = SCANNER.nextLine();
-                switch (message) {
-                    case "1" -> addDoctor();
-                    case "2" -> {
-                        System.out.println("(Укажите порядковый номер доктора)");
-                        changeCertification(SCANNER.nextInt());
-                    }
-                    case "3" -> {
-                        System.out.println("Завершаю программу...");
-                        return;
-                    }
+            String message = SCANNER.nextLine();
+            switch (message) {
+                case "1" -> addDoctor();
+                case "2" -> {
+                    System.out.println("Укажите порядковый номер доктора");
+                    changeCertification(SCANNER.nextInt());
                 }
-            } catch (RuntimeException exception) {
-                System.out.println(exception.getMessage());
+                case "3" -> {
+                    System.out.println("Завершаю программу...");
+                    return;
+                }
             }
         }
     }
