@@ -14,8 +14,20 @@ public class CarApplication {
     public static void addCar() {
         System.out.println("Введите марку автомобиля - ");
         String name = SCANNER.nextLine();
-        System.out.println("Введите год выпуска автомобиля - ");
-        int year = Integer.parseInt(SCANNER.nextLine());
+        int year;
+        while (true) {
+            System.out.println("Введите год выпуска автомобиля - ");
+            try {
+                year = Integer.parseInt(SCANNER.nextLine());
+                if (year >= 1769){
+                    break;
+                } else {
+                    System.out.println("Машины тогда не существовали...");
+                }
+            } catch (NumberFormatException exception) {
+                System.out.println("Вы ввели не число...");
+            }
+        }
         System.out.println("Введите регистрационный номер автомобиля - ");
         String number = SCANNER.nextLine();
         CARS.add(new Car(name, year, number));

@@ -13,7 +13,7 @@
       <change afterPath="$PROJECT_DIR$/src/university/Homework2/variant4/PassportApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/JavaRush/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaRush/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/university/Homework2/variant1/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/university/Homework2/variant1/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/university/Homework2/variant1/CarApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/university/Homework2/variant1/CarApplication.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,13 +81,13 @@
     "settings.editor.selected.configurable": "preferences.updates"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Solution">
-    <configuration name="DoctorApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="university.Homework2.variant3.DoctorApplication" />
+  <component name="RunManager" selected="Application.CarApplication">
+    <configuration name="CarApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="university.Homework2.variant1.CarApplication" />
       <module name="lessons" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="university.Homework2.variant3.*" />
+          <option name="PATTERN" value="university.Homework2.variant1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -95,12 +95,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Dog" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="testing.Dog" />
+    <configuration name="DoctorApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="university.Homework2.variant3.DoctorApplication" />
       <module name="lessons" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="testing.*" />
+          <option name="PATTERN" value="university.Homework2.variant3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -149,11 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CarApplication" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="Application.DoctorApplication" />
         <item itemvalue="Application.university.Homework1.variant3.DoctorApplication" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Dog" />
       </list>
     </recent_temporary>
   </component>
@@ -269,7 +269,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710369315257</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="lessons java">
+      <option name="closed" value="true" />
+      <created>1710414888402</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1710414888402</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
