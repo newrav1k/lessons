@@ -1,11 +1,18 @@
 package university.Homework2.variant3;
 
+import java.util.Scanner;
+import java.util.Comparator;
+
 public class Doctor implements Comparable<Doctor> {
     private String name;
     private String professional;
     private int number;
     private int days;
     private boolean isCertification;
+
+    public Doctor() {
+
+    }
 
     public Doctor(String name, String professional, int number, int days, boolean isCertification) {
         this.name = name;
@@ -44,15 +51,28 @@ public class Doctor implements Comparable<Doctor> {
     }
 
     public void setNumber(int number) {
-        this.number = number;
+        if ((!(number >= 0 && DoctorApplication.isExistingNumber(number)))) {
+            throw new RuntimeException("Вы ввели отрицательное число или такой номер уже существует");
+        } else {
+            this.number = number;
+        }
     }
 
     public void setDays(int days) {
-        this.days = days;
+        if (days > 0) {
+            this.days = days;
+        } else {
+            throw new RuntimeException("Вы ввели отрицательное количество дней");
+        }
     }
 
-    public void setCertification(boolean certification) {
-        isCertification = certification;
+    public void setCertification(Boolean isCertification) {
+        this.isCertification = isCertification;
+    }
+
+    public void setCertification(String isCertification) {
+        this.isCertification = isCertification.equalsIgnoreCase("да") ||
+                isCertification.equalsIgnoreCase("нет");
     }
 
     @Override

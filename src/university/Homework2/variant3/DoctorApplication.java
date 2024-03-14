@@ -18,43 +18,51 @@ public class DoctorApplication {
 
 
     private static void doctorsPrint() {
+        System.out.println("\nВывожу список врачей...\n");
         DOCTORS.sort(Doctor::compareTo);
         DOCTORS.forEach(System.out::println);
     }
 
     public static void addDoctor() {
+        Doctor doctor = new Doctor();
         System.out.println("Введите по очереди данные врача: \nИмя - ");
-        String name = SCANNER.nextLine();
+        doctor.setName(SCANNER.nextLine());
         System.out.println("Профессия - ");
-        String professional = SCANNER.nextLine();
-        System.out.println("Порядковый номер - ");
-        int number;
-        while (true) {
-            number = Integer.parseInt(SCANNER.nextLine());
-            if (!(number >= 0 && isExistingNumber(number))) {
-                System.out.println("Вы ввели отрицательное число или такой врач уже существует!");
-            } else {
-                break;
-            }
-        }
-        System.out.println("Количество рабочих смен - ");
-        int days;
-        while (true) {
-            days = Integer.parseInt(SCANNER.nextLine());
-            if (days > 0) {
-                break;
-            } else {
-                System.out.println("Вы ввели отрицательное число!");
-            }
-        }
-        System.out.println("Отметка о прохождении аттестации - ");
-        boolean isCertification = Boolean.parseBoolean(SCANNER.nextLine());
+        doctor.setProfessional(SCANNER.nextLine());
 
-        DOCTORS.add(new Doctor(name, professional, number, days, isCertification));
+
+        System.out.println("Порядковый номер - ");
+        int number = 0;
+        while (!(number > 0 && DoctorApplication.isExistingNumber(number))) {
+            try {
+                number = Integer.parseInt(SCANNER.nextLine());
+                doctor.setNumber(number);
+            } catch (RuntimeException exception) {
+                System.out.println(exception.getMessage());
+            }
+        }
+
+        System.out.println("Количество рабочих смен - ");
+        int days = 0;
+        while (!(days > 0)) {
+            try {
+                days = Integer.parseInt(SCANNER.nextLine());
+                doctor.setDays(days);
+            } catch (RuntimeException exception) {
+                System.out.println(exception.getMessage());
+            }
+        }
+
+
+        System.out.println("Отметка о прохождении аттестации - ");
+        String isCertification = SCANNER.nextLine();
+        doctor.setCertification(isCertification);
+
+        DOCTORS.add(doctor);
         doctorsPrint();
     }
 
-    private static boolean isExistingNumber(int number) {
+    protected static boolean isExistingNumber(int number) {
         for (Doctor doctor : DOCTORS) {
             if (doctor.getNumber() == number) {
                 return false;
