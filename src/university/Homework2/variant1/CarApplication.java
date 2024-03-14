@@ -44,24 +44,20 @@ public class CarApplication {
                 4 - закончить ввод""");
         while (true) {
             String message = SCANNER.nextLine();
-            try {
-                switch (message) {
-                    case "1" -> addCar();
-                    case "2" -> {
-                        System.out.println("Введите регистрационный номер автомобиля - ");
-                        deleteCarByNumber(SCANNER.nextLine());
-                    }
-                    case "3" -> {
-                        clearList();
-                        System.out.println("Очищаю список...");
-                    }
-                    case "4" -> {
-                        System.out.println("Завершаю программу...");
-                        return;
-                    }
+            switch (message) {
+                case "1" -> addCar();
+                case "2" -> {
+                    System.out.println("Введите регистрационный номер автомобиля - ");
+                    deleteCarByNumber(SCANNER.nextLine());
                 }
-            } catch (RuntimeException exception) {
-                System.out.println(exception.getMessage());
+                case "3" -> {
+                    clearList();
+                    System.out.println("Очищаю список...");
+                }
+                case "4" -> {
+                    System.out.println("Завершаю программу...");
+                    return;
+                }
             }
         }
     }
