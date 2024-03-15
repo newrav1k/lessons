@@ -13,7 +13,7 @@ public class DoctorApplication {
         Scanner scanner = new Scanner(System.in);
         System.out.printf("""
                     %s
-                    Выберите врача, которого Вы посетили, или завершение программы:
+                    Выберите врача, которого Вы посетили:
                     1 - стоматолог
                     2 - терапевт \n""", MESSAGE);
         String message = scanner.nextLine();
