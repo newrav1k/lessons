@@ -9,16 +9,10 @@
       <change afterPath="$PROJECT_DIR$/src/JavaRush/JavaCore/PersonScannerAdapter/Person.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/JavaRush/JavaCore/PersonScannerAdapter/PersonScanner.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/JavaRush/JavaCore/PersonScannerAdapter/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Singleton.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/university/Homework2/variant4/Passport.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/university/Homework2/variant4/PassportApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/JavaRush/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaRush/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/university/Homework1/variant3/DoctorApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/university/Homework1/variant3/DoctorApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/university/Homework1/variant4/GardenerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/university/Homework1/variant4/GardenerApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/university/Homework2/variant1/CarApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/university/Homework2/variant1/CarApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/university/Homework2/variant3/Doctor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/university/Homework2/variant3/Doctor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/university/Homework2/variant3/DoctorApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/university/Homework2/variant3/DoctorApplication.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,30 +58,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Application.Animal.executor": "Run",
-    "Application.CarApplication.executor": "Run",
-    "Application.DoctorApplication.executor": "Run",
-    "Application.Dog.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.PassportApplication.executor": "Run",
-    "Application.SellerApplication.executor": "Run",
-    "Application.Solution.executor": "Run",
-    "Application.Table (1).executor": "Run",
-    "Application.university.Homework1.variant3.DoctorApplication.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "onboarding.tips.debug.path": "C:/Users/OlegK/IdeaProjects/lessons/src/Main.java",
-    "settings.editor.selected.configurable": "preferences.updates"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Application.Animal.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CarApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DoctorApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Dog.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PassportApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SellerApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Solution.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Table (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.university.Homework1.variant3.DoctorApplication.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/OlegK/IdeaProjects/lessons/src/Main.java&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.updates&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.DoctorApplication">
+}</component>
+  <component name="RunManager" selected="Application.university.Homework1.variant3.DoctorApplication">
     <configuration name="DoctorApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="university.Homework2.variant3.DoctorApplication" />
       <module name="lessons" />
@@ -142,9 +136,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.university.Homework1.variant3.DoctorApplication" />
         <item itemvalue="Application.DoctorApplication" />
         <item itemvalue="Application.SellerApplication" />
-        <item itemvalue="Application.university.Homework1.variant3.DoctorApplication" />
         <item itemvalue="Application.PassportApplication" />
       </list>
     </recent_temporary>
@@ -277,7 +271,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710417812126</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="lessons java">
+      <option name="closed" value="true" />
+      <created>1710446172662</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1710446172662</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

@@ -1,13 +1,7 @@
 package university.Homework1.variant3;
 
 public class Therapist extends Doctor {
-    private static final Therapist THERAPIST = new Therapist();
-
-    public static Therapist getInstance() {
-        return THERAPIST;
-    }
-
-    @Override
+        @Override
     public String writeRecipe(String recipe) {
         return String.format("Рецепт: Не \"%s\", а спать надо больше!", recipe);
     }
