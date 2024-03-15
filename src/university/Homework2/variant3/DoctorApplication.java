@@ -16,7 +16,6 @@ public class DoctorApplication {
             Вариант: 13
             """;
 
-
     private static void doctorsPrint() {
         System.out.println("\nВывожу список врачей...\n");
         DOCTORS.sort(Doctor::compareTo);
@@ -29,7 +28,6 @@ public class DoctorApplication {
         doctor.setName(SCANNER.nextLine());
         System.out.println("Профессия - ");
         doctor.setProfessional(SCANNER.nextLine());
-
 
         System.out.println("Порядковый номер - ");
         int number = 0;
@@ -52,8 +50,6 @@ public class DoctorApplication {
                 System.out.println(exception.getMessage());
             }
         }
-
-
         System.out.println("Отметка о прохождении аттестации - ");
         String isCertification = SCANNER.nextLine();
         doctor.setCertification(isCertification);
