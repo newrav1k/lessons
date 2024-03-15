@@ -1,8 +1,5 @@
 package university.Homework2.variant3;
 
-import java.util.Scanner;
-import java.util.Comparator;
-
 public class Doctor implements Comparable<Doctor> {
     private String name;
     private String professional;
