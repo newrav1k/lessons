@@ -3,7 +3,6 @@ package university.Homework1.variant3;
 import java.util.Scanner;
 
 public class DoctorApplication {
-    private static final Scanner SCANNER = new Scanner(System.in);
     private static final String MESSAGE = """
                     Выполнил работу: Крицкий Кирилл
                     Группа: РИБО-04-22
@@ -11,20 +10,21 @@ public class DoctorApplication {
                     """;
 
     public static void start() {
+        Scanner scanner = new Scanner(System.in);
         System.out.printf("""
                     %s
                     Выберите врача, которого Вы посетили, или завершение программы:
                     1 - стоматолог
                     2 - терапевт \n""", MESSAGE);
-        String message = SCANNER.nextLine();
+        String message = scanner.nextLine();
         switch (message) {
             case "1" -> {
                 System.out.print("Введите рецепт: ");
-                System.out.println(new Dentist().writeRecipe(SCANNER.nextLine()));
+                System.out.println(new Dentist().writeRecipe(scanner.nextLine()));
             }
             case "2" -> {
                 System.out.print("Введите рецепт: ");
-                System.out.println(new Therapist().writeRecipe(SCANNER.nextLine()));
+                System.out.println(new Therapist().writeRecipe(scanner.nextLine()));
             }
         }
     }
