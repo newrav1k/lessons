@@ -17,15 +17,10 @@ public class DoctorApplication {
                     1 - стоматолог
                     2 - терапевт \n""", MESSAGE);
         String message = scanner.nextLine();
+        System.out.print("Введите рецепт: ");
         switch (message) {
-            case "1" -> {
-                System.out.print("Введите рецепт: ");
-                System.out.println(new Dentist().writeRecipe(scanner.nextLine()));
-            }
-            case "2" -> {
-                System.out.print("Введите рецепт: ");
-                System.out.println(new Therapist().writeRecipe(scanner.nextLine()));
-            }
+            case "1" -> System.out.println(new Dentist().writeRecipe(scanner.nextLine()));
+            case "2" -> System.out.println(new Therapist().writeRecipe(scanner.nextLine()));
         }
     }
 
