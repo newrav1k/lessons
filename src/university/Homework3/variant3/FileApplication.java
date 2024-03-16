@@ -4,10 +4,6 @@ import java.util.Scanner;
 import java.nio.file.Path;
 import java.io.*;
 
-/*
-C:\Users\OlegK\OneDrive\Рабочий стол\input.txt
-*/
-
 public class FileApplication {
     private static String inputPath;
     private static byte[] gamma;
@@ -35,7 +31,8 @@ public class FileApplication {
 
     public static void writeBytesToFile(byte[] bytes) throws IOException {
         Path path = Path.of(inputPath);
-        File file = new File(path.getParent().toString(), "output.txt");
+        String parentPath = path.getParent().toString();
+        File file = new File(parentPath, "output.txt");
         try (FileOutputStream outputStream = new FileOutputStream(file)) {
             outputStream.write(bytes);
         }
