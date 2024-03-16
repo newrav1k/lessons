@@ -1,41 +1,22 @@
 package university.Homework3.variant3;
 
 import java.util.Scanner;
+import java.nio.file.Path;
 import java.io.*;
 
 /*
 C:\Users\OlegK\OneDrive\Рабочий стол\input.txt
-C:\Users\OlegK\OneDrive\Рабочий стол\output.txt
 */
-
-/*Вариант 3.
-Разработать программу для модификации входного файла.
-Модификация заключается в последовательном наложении гаммы (операция XOR) на байты
-входного файла.
-    Обязательные требования к программе:
-         Путь к исходному файлу, а также байты гаммы задает пользователь
-после старта программы.
-         Необходимо открыть файл, прочитать содержащиеся в нем байты,
-осуществить побайтовую операцию XOR с гаммой и записать выходной
-результат в новый файл.
-         Новый файл должен быть сохранен рядом с исходным.
-
-Пример содержимого входного файла (6 байт):
-0x1A, 0x2B, 0x3C, 0x3C, 0x44, 0x44
-
-Гамма: ABCD (2 байта)
-
-Содержимое выходного файла (6 байт):
-0xB1, 0xE6, 0x97, 0xF1, 0xEF, 0x89*/
 
 public class FileApplication {
     private static String inputPath;
     private static byte[] gamma;
 
     public static void initializePathAndGamma() {
-        System.out.println("Введите путь к файлу: ");
         try (Scanner scanner = new Scanner(System.in)) {
+            System.out.println("Введите путь к файлу: ");
             inputPath = scanner.nextLine();
+            System.out.println("Введите гамму: ");
             gamma = hexStringToByteArray(scanner.nextLine());
         }
     }
@@ -53,7 +34,8 @@ public class FileApplication {
     }
 
     public static void writeBytesToFile(byte[] bytes) throws IOException {
-        File file = new File("C:\\Users\\OlegK\\OneDrive\\Рабочий стол\\output.bin");
+        Path path = Path.of(inputPath);
+        File file = new File(path.getParent().toString(), "output.txt");
         try (FileOutputStream outputStream = new FileOutputStream(file)) {
             outputStream.write(bytes);
         }

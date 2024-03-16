@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="baf6d618-f6de-4fe1-975d-5a3369d4f568" name="Changes" comment="lessons java">
-      <change afterPath="$PROJECT_DIR$/output.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/university/Homework3/PrTask5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/university/Homework2/variant5/Dictionary.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/university/Homework3/variant1/FileApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/university/Homework3/variant3/FileApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/university/Homework3/variant3/FileApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/university/Homework3/variant3/FileApplication.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,6 +59,7 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "Application.Animal.executor": "Run",
     "Application.CarApplication.executor": "Run",
+    "Application.Dictionary.executor": "Run",
     "Application.DoctorApplication.executor": "Run",
     "Application.Dog.executor": "Run",
     "Application.FileApplication.executor": "Run",
@@ -81,6 +81,19 @@
   }
 }]]></component>
   <component name="RunManager" selected="Application.FileApplication">
+    <configuration name="Dictionary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="university.Homework2.variant5.Dictionary" />
+      <module name="lessons" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="university.Homework2.variant5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DoctorApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="university.Homework2.variant3.DoctorApplication" />
       <module name="lessons" />
@@ -120,19 +133,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SellerApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="university.Homework1.variant2.SellerApplication" />
-      <module name="lessons" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="university.Homework1.variant2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="university.Homework1.variant3.DoctorApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="university.Homework1.variant3.DoctorApplication" />
       <module name="lessons" />
@@ -149,10 +149,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.FileApplication" />
+        <item itemvalue="Application.Dictionary" />
         <item itemvalue="Application.PrTask5" />
         <item itemvalue="Application.university.Homework1.variant3.DoctorApplication" />
         <item itemvalue="Application.DoctorApplication" />
-        <item itemvalue="Application.SellerApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -348,7 +348,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710534458910</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="lessons java">
+      <option name="closed" value="true" />
+      <created>1710617056986</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1710617056986</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
