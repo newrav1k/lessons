@@ -1,7 +1,7 @@
 package university.Homework3.variant3;
 
-import java.util.Scanner;
 import java.nio.file.Path;
+import java.util.Scanner;
 import java.io.*;
 
 public class FileApplication {
@@ -36,6 +36,7 @@ public class FileApplication {
         try (FileOutputStream outputStream = new FileOutputStream(file)) {
             outputStream.write(bytes);
         }
+        System.out.printf("Файл успешно сохранён по пути: %s", file.getAbsolutePath());
     }
 
     public static byte[] hexStringToByteArray(String s) throws IllegalArgumentException {
@@ -52,6 +53,10 @@ public class FileApplication {
     }
 
     public static void start() throws IOException {
+        System.out.println("""
+            Выполнил работу: Крицкий Кирилл
+            Группа: РИБО-04-22
+            Вариант: 13 \n""");
         initializePathAndGamma();
         writeBytesToFile(readBytesFromFile());
     }

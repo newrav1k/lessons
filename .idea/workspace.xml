@@ -149,10 +149,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.FileApplication" />
+        <item itemvalue="Application.DoctorApplication" />
         <item itemvalue="Application.Dictionary" />
         <item itemvalue="Application.PrTask5" />
         <item itemvalue="Application.university.Homework1.variant3.DoctorApplication" />
-        <item itemvalue="Application.DoctorApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -356,7 +356,23 @@
       <option name="project" value="LOCAL" />
       <updated>1710617056986</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="lessons java">
+      <option name="closed" value="true" />
+      <created>1710630205566</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1710630205566</updated>
+    </task>
+    <task id="LOCAL-00025" summary="lessons java">
+      <option name="closed" value="true" />
+      <created>1710630322725</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1710630322725</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
