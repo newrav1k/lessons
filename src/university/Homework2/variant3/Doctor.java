@@ -69,7 +69,7 @@ public class Doctor implements Comparable<Doctor> {
 
     public void setCertification(String isCertification) {
         this.isCertification = isCertification.equalsIgnoreCase("да") ||
-                isCertification.equalsIgnoreCase("нет");
+                isCertification.equalsIgnoreCase("yes");
     }
 
     @Override
