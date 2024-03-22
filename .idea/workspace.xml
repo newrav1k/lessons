@@ -5,17 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="baf6d618-f6de-4fe1-975d-5a3369d4f568" name="Changes" comment="lessons java">
-      <change afterPath="$PROJECT_DIR$/src/testing/BankAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/testing/BankAccountApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/testing/ClientRunnable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/testing/Polimorfizm/Line.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/testing/Polimorfizm/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/testing/Polimorfizm/ShapeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/testing/Polimorfizm/Test.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/university/Homework2/variant5/Dictionary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/university/Homework4/variant1/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/university/Homework4/variant3/Doctor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/university/Homework4/variant3/DoctorApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/university/Homework3/variant4/FileApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -65,50 +56,41 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Application.Animal.executor": "Run",
-    "Application.BankAccountApplication.executor": "Run",
-    "Application.CarApplication.executor": "Run",
-    "Application.Dictionary.executor": "Run",
-    "Application.DoctorApplication.executor": "Run",
-    "Application.Dog.executor": "Run",
-    "Application.FileApplication.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.MyThreadApplication.executor": "Run",
-    "Application.PassportApplication.executor": "Run",
-    "Application.PrTask5.executor": "Run",
-    "Application.SellerApplication.executor": "Run",
-    "Application.Solution.executor": "Run",
-    "Application.Table (1).executor": "Run",
-    "Application.Test.executor": "Run",
-    "Application.university.Homework1.variant3.DoctorApplication.executor": "Run",
-    "Application.university.Homework4.variant3.DoctorApplication.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "onboarding.tips.debug.path": "C:/Users/OlegK/IdeaProjects/lessons/src/Main.java",
-    "settings.editor.selected.configurable": "preferences.editor"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Application.Animal.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BankAccountApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CarApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Dictionary.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DoctorApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Dog.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FileApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MyThreadApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PassportApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PrTask5.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Practice1_10.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Practice1_8.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Practice_1_8.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SellerApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Solution.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Table (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test.executor&quot;: &quot;Run&quot;,
+    &quot;Application.university.Homework1.variant3.DoctorApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.university.Homework3.variant3.FileApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.university.Homework4.variant3.DoctorApplication.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/OlegK/IdeaProjects/lessons/src/Main.java&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.appearance&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.DoctorApplication">
-    <configuration name="BankAccountApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="testing.BankAccountApplication" />
-      <module name="lessons" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="testing.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+}</component>
+  <component name="RunManager" selected="Application.university.Homework4.variant3.DoctorApplication">
     <configuration name="Dictionary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="university.Homework2.variant5.Dictionary" />
       <module name="lessons" />
@@ -122,12 +104,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DoctorApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="university.Homework2.variant3.DoctorApplication" />
+    <configuration name="FileApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="university.Homework3.variant4.FileApplication" />
       <module name="lessons" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="university.Homework2.variant3.*" />
+          <option name="PATTERN" value="university.Homework3.variant4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,6 +123,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="testing.Polimorfizm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="university.Homework3.variant3.FileApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="university.Homework3.variant3.FileApplication" />
+      <module name="lessons" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="university.Homework3.variant3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -163,11 +158,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DoctorApplication" />
-        <item itemvalue="Application.Test" />
         <item itemvalue="Application.university.Homework4.variant3.DoctorApplication" />
+        <item itemvalue="Application.Test" />
         <item itemvalue="Application.Dictionary" />
-        <item itemvalue="Application.BankAccountApplication" />
+        <item itemvalue="Application.university.Homework3.variant3.FileApplication" />
+        <item itemvalue="Application.FileApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -395,7 +390,31 @@
       <option name="project" value="LOCAL" />
       <updated>1710632690372</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="lessons java">
+      <option name="closed" value="true" />
+      <created>1710795164228</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1710795164228</updated>
+    </task>
+    <task id="LOCAL-00028" summary="lessons java">
+      <option name="closed" value="true" />
+      <created>1710795565320</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1710795565320</updated>
+    </task>
+    <task id="LOCAL-00029" summary="lessons java">
+      <option name="closed" value="true" />
+      <created>1711116247698</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1711116247698</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
