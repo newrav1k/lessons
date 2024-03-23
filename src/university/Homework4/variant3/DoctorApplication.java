@@ -2,8 +2,6 @@ package university.Homework4.variant3;
 
 import java.util.Scanner;
 
-// C:\Users\OlegK\OneDrive\Рабочий стол\input.txt
-
 public class DoctorApplication {
 
     private static final Scanner SCANNER = new Scanner(System.in);
@@ -62,7 +60,6 @@ public class DoctorApplication {
         save.start();
         save.join();
         load.start();
-        load.join();
     }
 
     public static void main(String[] args) throws InterruptedException {
