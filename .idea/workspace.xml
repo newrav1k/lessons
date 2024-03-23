@@ -7,7 +7,9 @@
     <list default="true" id="baf6d618-f6de-4fe1-975d-5a3369d4f568" name="Changes" comment="lessons java">
       <change afterPath="$PROJECT_DIR$/src/university/Homework2/variant5/Dictionary.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/university/Homework3/variant4/FileApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/university/Homework4/variant3/LoaderRunnable.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/university/Homework4/variant3/DoctorApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/university/Homework4/variant3/DoctorApplication.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -159,9 +161,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.university.Homework4.variant3.DoctorApplication" />
+        <item itemvalue="Application.university.Homework3.variant3.FileApplication" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.Dictionary" />
-        <item itemvalue="Application.university.Homework3.variant3.FileApplication" />
         <item itemvalue="Application.FileApplication" />
       </list>
     </recent_temporary>
@@ -414,7 +416,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711116247698</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="lessons java">
+      <option name="closed" value="true" />
+      <created>1711145191316</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1711145191316</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

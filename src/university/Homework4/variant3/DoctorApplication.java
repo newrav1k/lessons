@@ -2,6 +2,8 @@ package university.Homework4.variant3;
 
 import java.util.Scanner;
 
+// C:\Users\OlegK\OneDrive\Рабочий стол\input.txt
+
 public class DoctorApplication {
 
     private static final Scanner SCANNER = new Scanner(System.in);
@@ -52,9 +54,15 @@ public class DoctorApplication {
         String path = SCANNER.nextLine();
 
         SaverRunnable saverRunnable = new SaverRunnable(doctor, path);
+        LoaderRunnable loaderRunnable = new LoaderRunnable(path);
+
         Thread save = new Thread(saverRunnable, "save");
+        Thread load = new Thread(loaderRunnable, "load");
 
         save.start();
+        save.join();
+        load.start();
+        load.join();
     }
 
     public static void main(String[] args) throws InterruptedException {
