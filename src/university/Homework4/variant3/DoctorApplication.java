@@ -6,7 +6,7 @@ public class DoctorApplication {
 
     private static final Scanner SCANNER = new Scanner(System.in);
 
-    public static Doctor addDoctor() {
+    public static Doctor getDoctor() {
         Doctor doctor = new Doctor();
         System.out.println("Введите по очереди данные врача: \nИмя - ");
         doctor.setName(SCANNER.nextLine());
@@ -46,7 +46,7 @@ public class DoctorApplication {
             Выполнил работу: Крицкий Кирилл
             Группа: РИБО-04-22
             Вариант: 13 \n""");
-        Doctor doctor = addDoctor();
+        Doctor doctor = getDoctor();
 
         System.out.println("Введите путь к файлу: ");
         String path = SCANNER.nextLine();
@@ -60,6 +60,7 @@ public class DoctorApplication {
         save.start();
         save.join();
         load.start();
+        load.join();
     }
 
     public static void main(String[] args) throws InterruptedException {
