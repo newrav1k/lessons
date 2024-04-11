@@ -11,16 +11,12 @@ public class NumberApplication {
         System.out.println("Вводите числа через запятую: ");
         String[] message = scanner.nextLine().split(", ");
         for (String s : message) {
-            int number;
             try {
-                number = Integer.parseInt(s);
+                int number = Integer.parseInt(s);
                 INTEGER_ARRAY_LIST.add(number);
-            } catch (NumberFormatException ignored) {
-
-            }
+            } catch (NumberFormatException ignore) {}
         }
-        System.out.println("Мы оставили только числа...");
-        System.out.println(INTEGER_ARRAY_LIST);
+        System.out.println("Мы оставили только числа...\n" + INTEGER_ARRAY_LIST);
     }
 
     public static void main(String[] args) throws InterruptedException {

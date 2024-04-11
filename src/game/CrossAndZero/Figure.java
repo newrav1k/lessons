@@ -7,5 +7,4 @@ public enum Figure {
     public String getFigure() {
         return this.ordinal() == 0 ? "X" : "O";
     }
-
 }

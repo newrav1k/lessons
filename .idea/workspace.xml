@@ -5,13 +5,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="baf6d618-f6de-4fe1-975d-5a3369d4f568" name="Changes" comment="lessons java">
-      <change afterPath="$PROJECT_DIR$/src/university/Homework2/variant5/Dictionary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/university/Homework3/variant4/FileApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/university/Homework5/variant3/MaximumRunnable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/university/Homework5/variant3/MinimumRunnable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/university/Homework5/variant3/NumberApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaRush/JavaCore/serialization/Asset.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaRush/JavaCore/serialization/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/YandexTesting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/learning/LeetCode/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/testing/Testing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/testing/WaitNotifyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/university/Homework4/variant2/LoaderRunnable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/university/Homework4/variant2/Message.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/university/Homework4/variant2/MessageApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/university/Homework4/variant4/Plant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/university/Homework4/variant4/PlantApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/university/Homework4/variant4/SaverRunnable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/university/Homework5/variant1/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/university/Homework5/variant1/MyThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/university/Homework5/variant2/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/university/Homework5/variant2/StudentApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/university/Homework5/variant4/MyThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/university/Homework5/variant4/QueueApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/university/Homework4/variant3/DoctorApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/university/Homework4/variant3/DoctorApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaRush/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaRush/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Singleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Singleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/game/CrossAndZero/CrossAndZero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/game/CrossAndZero/CrossAndZero.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/game/CrossAndZero/Figure.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/game/CrossAndZero/Figure.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/game/CrossAndZero/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/game/CrossAndZero/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/university/Homework5/variant3/NumberApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/university/Homework5/variant3/NumberApplication.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,14 +53,12 @@
     &quot;assignee&quot;: &quot;newrav1k&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">
-    <option name="selectedUrlAndAccountId">
-      <UrlAndAccount>
-        <option name="accountId" value="37c61298-94b4-4a38-97dc-0cc7c588b016" />
-        <option name="url" value="https://github.com/newrav1k/lessons.git" />
-      </UrlAndAccount>
-    </option>
-  </component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/newrav1k/lessons.git&quot;,
+    &quot;accountId&quot;: &quot;37c61298-94b4-4a38-97dc-0cc7c588b016&quot;
+  }
+}</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/university/Homework4/variant3/DoctorApplication.java" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -64,44 +80,77 @@
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "Application.Animal.executor": "Run",
+    "Application.Application (1).executor": "Run",
+    "Application.Application (2).executor": "Run",
+    "Application.Application (3).executor": "Run",
+    "Application.Application (4).executor": "Run",
+    "Application.Application (5).executor": "Run",
+    "Application.Application.executor": "Run",
     "Application.BankAccountApplication.executor": "Run",
     "Application.CarApplication.executor": "Run",
+    "Application.CrossAndZero.executor": "Run",
     "Application.Dictionary.executor": "Run",
     "Application.DoctorApplication.executor": "Run",
     "Application.Dog.executor": "Run",
     "Application.FileApplication.executor": "Run",
     "Application.Main.executor": "Run",
+    "Application.MessageApplication.executor": "Run",
     "Application.MyThreadApplication.executor": "Run",
     "Application.NumberApplication.executor": "Run",
     "Application.PassportApplication.executor": "Run",
+    "Application.PlantApplication.executor": "Run",
     "Application.PrTask5.executor": "Run",
     "Application.Practice1_10.executor": "Run",
+    "Application.Practice1_12 (1).executor": "Run",
+    "Application.Practice1_12.executor": "Run",
     "Application.Practice1_8.executor": "Run",
     "Application.Practice_1_8.executor": "Run",
+    "Application.QueueApplication (1).executor": "Run",
+    "Application.QueueApplication (2).executor": "Run",
+    "Application.QueueApplication (3).executor": "Run",
+    "Application.QueueApplication (4).executor": "Run",
+    "Application.QueueApplication (5).executor": "Run",
+    "Application.QueueApplication.executor": "Run",
     "Application.SellerApplication.executor": "Run",
     "Application.Solution.executor": "Run",
+    "Application.StudentApplication.executor": "Run",
     "Application.Table (1).executor": "Run",
+    "Application.Task1_14 (1).executor": "Run",
+    "Application.Task1_14 (2).executor": "Run",
+    "Application.Task1_14 (3).executor": "Run",
+    "Application.Task1_14 (4).executor": "Run",
+    "Application.Task1_14 (5).executor": "Run",
+    "Application.Task1_14.executor": "Run",
+    "Application.Task_2.executor": "Run",
     "Application.Test.executor": "Run",
+    "Application.Testing (1).executor": "Run",
+    "Application.Testing (2).executor": "Run",
+    "Application.Testing.executor": "Run",
+    "Application.YandexTesting.executor": "Run",
+    "Application.Zadanie1_14 (1).executor": "Run",
+    "Application.Zadanie1_14 (2).executor": "Run",
+    "Application.Zadanie1_14.executor": "Run",
     "Application.university.Homework1.variant3.DoctorApplication.executor": "Run",
     "Application.university.Homework3.variant3.FileApplication.executor": "Run",
     "Application.university.Homework4.variant3.DoctorApplication.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "deletionFromPopupRequiresConfirmation": "false",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "onboarding.tips.debug.path": "C:/Users/OlegK/IdeaProjects/lessons/src/Main.java",
-    "settings.editor.selected.configurable": "configurable.group.appearance"
+    "settings.editor.selected.configurable": "cn.yiiguxing.plugin.translate"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.university.Homework4.variant3.DoctorApplication">
-    <configuration name="Dictionary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="university.Homework2.variant5.Dictionary" />
+  <component name="RunManager" selected="Application.Application">
+    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="university.Homework5.variant1.Application" />
       <module name="lessons" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="university.Homework2.variant5.*" />
+          <option name="PATTERN" value="university.Homework5.variant1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,12 +158,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NumberApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="university.Homework5.variant3.NumberApplication" />
+    <configuration name="Task1_14 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="university.Homework5.variant1.Task1_14" />
       <module name="lessons" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="university.Homework5.variant3.*" />
+          <option name="PATTERN" value="university.Homework5.variant1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,12 +171,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="testing.Polimorfizm.Test" />
+    <configuration name="Task1_14 (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="university.Homework5.variant1.Task1_14" />
       <module name="lessons" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="testing.Polimorfizm.*" />
+          <option name="PATTERN" value="university.Homework5.variant1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,12 +184,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="university.Homework3.variant3.FileApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="university.Homework3.variant3.FileApplication" />
+    <configuration name="Task1_14 (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="university.Homework5.variant1.Task1_14" />
       <module name="lessons" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="university.Homework3.variant3.*" />
+          <option name="PATTERN" value="university.Homework5.variant1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -148,12 +197,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="university.Homework4.variant3.DoctorApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="university.Homework4.variant3.DoctorApplication" />
+    <configuration name="Task1_14" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="university.Homework5.variant1.Task1_14" />
       <module name="lessons" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="university.Homework4.variant3.*" />
+          <option name="PATTERN" value="university.Homework5.variant1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -163,20 +212,13 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.university.Homework4.variant3.DoctorApplication" />
-        <item itemvalue="Application.NumberApplication" />
-        <item itemvalue="Application.university.Homework3.variant3.FileApplication" />
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Application.Dictionary" />
+        <item itemvalue="Application.Application" />
+        <item itemvalue="Application.Task1_14" />
+        <item itemvalue="Application.Task1_14 (1)" />
+        <item itemvalue="Application.Task1_14 (5)" />
+        <item itemvalue="Application.Task1_14 (4)" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="SharedIndexes">
-    <attachedChunks>
-      <set>
-        <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-4f524021" />
-      </set>
-    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -435,7 +477,47 @@
       <option name="project" value="LOCAL" />
       <updated>1711189290090</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="lessons java">
+      <option name="closed" value="true" />
+      <created>1711197995632</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1711197995632</updated>
+    </task>
+    <task id="LOCAL-00033" summary="lessons java">
+      <option name="closed" value="true" />
+      <created>1711494044057</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1711494044057</updated>
+    </task>
+    <task id="LOCAL-00034" summary="lessons java">
+      <option name="closed" value="true" />
+      <created>1711659558106</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1711659558106</updated>
+    </task>
+    <task id="LOCAL-00035" summary="lessons java">
+      <option name="closed" value="true" />
+      <created>1711740586617</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1711740586617</updated>
+    </task>
+    <task id="LOCAL-00036" summary="lessons java">
+      <option name="closed" value="true" />
+      <created>1712269926413</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1712269926413</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

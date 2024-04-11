@@ -18,13 +18,12 @@ public class Singleton {
 
 Минусы:
 Не ленивая инициализация.
-*/
 
 
 
-/*
+
+
 Lazy Initialization
-
 
 public class Singleton {
     private static Singleton INSTANCE;
@@ -44,11 +43,12 @@ public class Singleton {
 
 Минусы:
 Не потокобезопасно
-*/
 
-/*
+
+
+
+
 Synchronized Accessor
-
 
 public class Singleton {
     private static Singleton INSTANCE;
@@ -69,13 +69,11 @@ public class Singleton {
 
 Минусы:
 Низкая производительность в многопоточной среде
-*/
 
 
 
-/*
+
 Double Checked Locking
-
 
 public class Singleton {
     private static Singleton INSTANCE;
@@ -101,13 +99,12 @@ public class Singleton {
 
 Минусы:
 Не поддерживается на версиях Java ниже 1.5 (в версии 1.5 исправили работу ключевого слова volatile)
-*/
 
 
 
-/*
+
+
 Class Holder Singleton
-
 
 public class Singleton {
     private Singleton() {}
@@ -130,7 +127,9 @@ public class Singleton {
 Для корректной работы необходима гарантия, что объект класса Singleton инициализируется без ошибок.
 Иначе первый вызов метода getInstance закончится ошибкой ExceptionInInitializerError,
 а все последующие NoClassDefFoundError.
-*/
+
+
+
 
 
 public class Singleton {
@@ -144,3 +143,4 @@ public class Singleton {
         return SingletonHolder.HOLDER_INSTANCE;
     }
 }
+*/
