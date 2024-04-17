@@ -5,31 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="baf6d618-f6de-4fe1-975d-5a3369d4f568" name="Changes" comment="lessons java">
-      <change afterPath="$PROJECT_DIR$/src/JavaRush/JavaCore/serialization/Asset.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JavaRush/JavaCore/serialization/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/YandexTesting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/learning/LeetCode/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/testing/Testing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/testing/WaitNotifyTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/university/Homework4/variant2/LoaderRunnable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/university/Homework4/variant2/Message.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/university/Homework4/variant2/MessageApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/university/Homework4/variant4/Plant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/university/Homework4/variant4/PlantApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/university/Homework4/variant4/SaverRunnable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/university/Homework5/variant1/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/university/Homework5/variant1/MyThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/university/Homework5/variant2/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/university/Homework5/variant2/StudentApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/university/Homework5/variant4/MyThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/university/Homework5/variant4/QueueApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JavaRush/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaRush/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Singleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Singleton.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/game/CrossAndZero/CrossAndZero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/game/CrossAndZero/CrossAndZero.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/game/CrossAndZero/Figure.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/game/CrossAndZero/Figure.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/game/CrossAndZero/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/game/CrossAndZero/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/university/Homework5/variant3/NumberApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/university/Homework5/variant3/NumberApplication.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,81 +52,92 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Application.Animal.executor": "Run",
-    "Application.Application (1).executor": "Run",
-    "Application.Application (2).executor": "Run",
-    "Application.Application (3).executor": "Run",
-    "Application.Application (4).executor": "Run",
-    "Application.Application (5).executor": "Run",
-    "Application.Application.executor": "Run",
-    "Application.BankAccountApplication.executor": "Run",
-    "Application.CarApplication.executor": "Run",
-    "Application.CrossAndZero.executor": "Run",
-    "Application.Dictionary.executor": "Run",
-    "Application.DoctorApplication.executor": "Run",
-    "Application.Dog.executor": "Run",
-    "Application.FileApplication.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.MessageApplication.executor": "Run",
-    "Application.MyThreadApplication.executor": "Run",
-    "Application.NumberApplication.executor": "Run",
-    "Application.PassportApplication.executor": "Run",
-    "Application.PlantApplication.executor": "Run",
-    "Application.PrTask5.executor": "Run",
-    "Application.Practice1_10.executor": "Run",
-    "Application.Practice1_12 (1).executor": "Run",
-    "Application.Practice1_12.executor": "Run",
-    "Application.Practice1_8.executor": "Run",
-    "Application.Practice_1_8.executor": "Run",
-    "Application.QueueApplication (1).executor": "Run",
-    "Application.QueueApplication (2).executor": "Run",
-    "Application.QueueApplication (3).executor": "Run",
-    "Application.QueueApplication (4).executor": "Run",
-    "Application.QueueApplication (5).executor": "Run",
-    "Application.QueueApplication.executor": "Run",
-    "Application.SellerApplication.executor": "Run",
-    "Application.Solution.executor": "Run",
-    "Application.StudentApplication.executor": "Run",
-    "Application.Table (1).executor": "Run",
-    "Application.Task1_14 (1).executor": "Run",
-    "Application.Task1_14 (2).executor": "Run",
-    "Application.Task1_14 (3).executor": "Run",
-    "Application.Task1_14 (4).executor": "Run",
-    "Application.Task1_14 (5).executor": "Run",
-    "Application.Task1_14.executor": "Run",
-    "Application.Task_2.executor": "Run",
-    "Application.Test.executor": "Run",
-    "Application.Testing (1).executor": "Run",
-    "Application.Testing (2).executor": "Run",
-    "Application.Testing.executor": "Run",
-    "Application.YandexTesting.executor": "Run",
-    "Application.Zadanie1_14 (1).executor": "Run",
-    "Application.Zadanie1_14 (2).executor": "Run",
-    "Application.Zadanie1_14.executor": "Run",
-    "Application.university.Homework1.variant3.DoctorApplication.executor": "Run",
-    "Application.university.Homework3.variant3.FileApplication.executor": "Run",
-    "Application.university.Homework4.variant3.DoctorApplication.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "deletionFromPopupRequiresConfirmation": "false",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "onboarding.tips.debug.path": "C:/Users/OlegK/IdeaProjects/lessons/src/Main.java",
-    "settings.editor.selected.configurable": "cn.yiiguxing.plugin.translate"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Application.Animal.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Application (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.Application (2).executor&quot;: &quot;Run&quot;,
+    &quot;Application.Application (3).executor&quot;: &quot;Run&quot;,
+    &quot;Application.Application (4).executor&quot;: &quot;Run&quot;,
+    &quot;Application.Application (5).executor&quot;: &quot;Run&quot;,
+    &quot;Application.Application.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BankAccountApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CarApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CrossAndZero.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Dictionary.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DoctorApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Dog.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FileApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MessageApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MyThreadApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NumberApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PassportApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PlantApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PrTask5.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Practice1_10.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Practice1_12 (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.Practice1_12.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Practice1_8.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Practice_1_8.executor&quot;: &quot;Run&quot;,
+    &quot;Application.QueueApplication (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.QueueApplication (2).executor&quot;: &quot;Run&quot;,
+    &quot;Application.QueueApplication (3).executor&quot;: &quot;Run&quot;,
+    &quot;Application.QueueApplication (4).executor&quot;: &quot;Run&quot;,
+    &quot;Application.QueueApplication (5).executor&quot;: &quot;Run&quot;,
+    &quot;Application.QueueApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SellerApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Solution.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StudentApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Table (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.Task1_14 (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.Task1_14 (2).executor&quot;: &quot;Run&quot;,
+    &quot;Application.Task1_14 (3).executor&quot;: &quot;Run&quot;,
+    &quot;Application.Task1_14 (4).executor&quot;: &quot;Run&quot;,
+    &quot;Application.Task1_14 (5).executor&quot;: &quot;Run&quot;,
+    &quot;Application.Task1_14.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Task_2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Testing (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.Testing (2).executor&quot;: &quot;Run&quot;,
+    &quot;Application.Testing (3).executor&quot;: &quot;Run&quot;,
+    &quot;Application.Testing (4).executor&quot;: &quot;Run&quot;,
+    &quot;Application.Testing (5).executor&quot;: &quot;Run&quot;,
+    &quot;Application.Testing.executor&quot;: &quot;Run&quot;,
+    &quot;Application.YandexTesting.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Zadanie1_14 (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.Zadanie1_14 (2).executor&quot;: &quot;Run&quot;,
+    &quot;Application.Zadanie1_14.executor&quot;: &quot;Run&quot;,
+    &quot;Application.university.Homework1.variant3.DoctorApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.university.Homework3.variant3.FileApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.university.Homework4.variant3.DoctorApplication.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;deletionFromPopupRequiresConfirmation&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/OlegK/IdeaProjects/lessons/src/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;cn.yiiguxing.plugin.translate&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.Application">
-    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="university.Homework5.variant1.Application" />
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\OlegK\IdeaProjects\lessons\src\university\Homework6" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Testing">
+    <configuration name="Testing (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="testing.Testing" />
       <module name="lessons" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="university.Homework5.variant1.*" />
+          <option name="PATTERN" value="testing.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -158,12 +145,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task1_14 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="university.Homework5.variant1.Task1_14" />
+    <configuration name="Testing (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="testing.Testing" />
       <module name="lessons" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="university.Homework5.variant1.*" />
+          <option name="PATTERN" value="testing.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -171,12 +158,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task1_14 (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="university.Homework5.variant1.Task1_14" />
+    <configuration name="Testing (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="testing.Testing" />
       <module name="lessons" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="university.Homework5.variant1.*" />
+          <option name="PATTERN" value="testing.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -184,12 +171,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task1_14 (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="university.Homework5.variant1.Task1_14" />
+    <configuration name="Testing (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="testing.Testing" />
       <module name="lessons" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="university.Homework5.variant1.*" />
+          <option name="PATTERN" value="testing.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -197,12 +184,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task1_14" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="university.Homework5.variant1.Task1_14" />
+    <configuration name="Testing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="testing.Testing" />
       <module name="lessons" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="university.Homework5.variant1.*" />
+          <option name="PATTERN" value="testing.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -212,11 +199,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Application" />
-        <item itemvalue="Application.Task1_14" />
-        <item itemvalue="Application.Task1_14 (1)" />
-        <item itemvalue="Application.Task1_14 (5)" />
-        <item itemvalue="Application.Task1_14 (4)" />
+        <item itemvalue="Application.Testing" />
+        <item itemvalue="Application.Testing (3)" />
+        <item itemvalue="Application.Testing (2)" />
+        <item itemvalue="Application.Testing (1)" />
+        <item itemvalue="Application.Testing (5)" />
       </list>
     </recent_temporary>
   </component>
@@ -517,7 +504,23 @@
       <option name="project" value="LOCAL" />
       <updated>1712269926413</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="lessons java">
+      <option name="closed" value="true" />
+      <created>1712842045650</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1712842045650</updated>
+    </task>
+    <task id="LOCAL-00038" summary="lessons java">
+      <option name="closed" value="true" />
+      <created>1713296985016</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1713296985016</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
